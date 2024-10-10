@@ -41,6 +41,11 @@ body .login-form form label {
   display: block;
 }
 
+body .login-form form input {
+  width: 100%;
+  padding: .25rem;
+}
+
 body .login-form form div:last-of-type {
   display: flex;
   justify-content: space-around;

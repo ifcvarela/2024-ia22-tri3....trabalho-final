@@ -32,12 +32,16 @@
       </div>
       <div>
         <button type="submit" class="unelevated">recuperar senha</button>
-        <button type="submit" class="unelevated">cadastra-se</button>
+        <button type="submit" class="unelevated" id="btRegister">cadastra-se</button>
         <button type="submit">Entrar</button>
       </div>
     </form>
   </div>
-
+  <script>
+    const form = document.querySelector('form')
+    form.addEventListener('submit', (e) => e.preventDefault())
+    form.btRegister.addEventListener('click', () => window.location.href = 'registrar.html')
+  </script>
 </body>
 
 </html>
