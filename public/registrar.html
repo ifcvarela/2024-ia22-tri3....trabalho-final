@@ -77,11 +77,11 @@
         password: form.password.value
       })
 
-      const request = await fetch(url, { method, headers, body })
-      const response = await request.json()
+      const response = await fetch(url, { method, headers, body })
+      const dataResponse = await response.json()
 
-      if (!request.ok) {
-        console.error(response)
+      if (!response.ok) {
+        console.error(dataResponse)
         return alert('Erro de servidor ao cadastrar usuário, maiores detalhes no console!')
       }
 
