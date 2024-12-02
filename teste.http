@@ -2,8 +2,8 @@ POST http://localhost:3000/token HTTP/1.1
 Content-Type: application/json
 
 {
-  "email": "qwe@qwe.qwe",
-  "password": "qwe"
+  "email": "susan@mail.com",
+  "password": "123123"
 }
 
 ###
